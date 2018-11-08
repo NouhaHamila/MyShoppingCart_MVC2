@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Core", "ShoppingCart.Core\ShoppingCart.Core.csproj", "{2A360B12-FD89-4D2C-A370-F934595DCBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Core.Tests", "ShoppingCart.Core.Tests\ShoppingCart.Core.Tests.csproj", "{628FB044-E02A-419C-8BD8-36C344A6A2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Web", "ShoppingCart.Web\ShoppingCart.Web.csproj", "{F77174E1-A78A-41DE-A54C-9582A57B5005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Web.Tests", "ShoppingCart.Web.Tests\ShoppingCart.Web.Tests.csproj", "{F3E2605D-4460-449B-A92B-E2961DB79C95}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A360B12-FD89-4D2C-A370-F934595DCBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A360B12-FD89-4D2C-A370-F934595DCBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A360B12-FD89-4D2C-A370-F934595DCBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A360B12-FD89-4D2C-A370-F934595DCBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628FB044-E02A-419C-8BD8-36C344A6A2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628FB044-E02A-419C-8BD8-36C344A6A2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628FB044-E02A-419C-8BD8-36C344A6A2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628FB044-E02A-419C-8BD8-36C344A6A2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77174E1-A78A-41DE-A54C-9582A57B5005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77174E1-A78A-41DE-A54C-9582A57B5005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77174E1-A78A-41DE-A54C-9582A57B5005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77174E1-A78A-41DE-A54C-9582A57B5005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E2605D-4460-449B-A92B-E2961DB79C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E2605D-4460-449B-A92B-E2961DB79C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E2605D-4460-449B-A92B-E2961DB79C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E2605D-4460-449B-A92B-E2961DB79C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
