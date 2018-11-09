@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingCart.Core.Facade
 {
-    interface IPoductRepository
+   public interface IPoductRepository
     {
         //CRUD
         IEnumerable<Product> FindAll();
